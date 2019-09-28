@@ -10,6 +10,8 @@ alias ll='ls -la'
 
 alias fixmouse='sudo defaults write -g com.apple.mouse.scaling 100'
 
+export GREP_OPTIONS="--color=always" 
+
 EXPORT=CLICOLOR1
 #export PHANTOMJS_EXECUTABLE=/Users/choip/Software/phantomjs-2.0.0-macosx/bin/phantomjs
 export PHANTOMJS_EXECUTABLE=/usr/local/bin/phantomjs
